@@ -4,7 +4,7 @@ import Hi from './Hi';
 function App() {
   return (
 
-    <Hi name="민상" firend="친구"/>
+    <Hi name="민상" friend="친구" one="1"/>
 
   );
 }
