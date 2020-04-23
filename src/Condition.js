@@ -1,9 +1,10 @@
 import React from 'react';
 
-function Condition(){
+function Condition({isOn}){
+    // const {isOn} = props;
     return(
         <>
-            <div>리액트 두번째 날</div>
+            <div>현재 리액트가 {isOn ? "on" : "off"}</div>
         </>
     )
 }

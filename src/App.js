@@ -7,7 +7,7 @@ function App() {
 
     <>
       <Hi name="민상" friend="친구" one="1"/>
-      <Condition />
+      <Condition isOn={true} />
     </>
 
   );
